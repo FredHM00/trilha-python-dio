@@ -60,7 +60,7 @@ while True:
     elif opcao == "e":
         EXTRATO = "EXTRATO"   
         
-        print(EXTRATO.center(24, "#"))
+        print(EXTRATO.center(32, "="))
 
         print("Não foram realizadas movimentações." if not extrato else extrato)
         
@@ -76,7 +76,3 @@ while True:
         
         print("Operação inválida, por favor selecione novamente a operação desejada.")
   
-
-   
-
-   
